@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Mathematical Parser</h2>
+
+<table>
+    <tr>
+        <td>Enter value</td>
+        <td>
+            <input id="ParseMe" type="text" /></td>
+    </tr>
+    <tr>
+        <td colspan="2"><input id="Calculate" style="width:100%" type="button" value="Calculate" /></td>
+    </tr>
+    <tr>
+        <td id="Answerlabel"></td>
+        <td id="AnswerResult"></td>
+    </tr>
+
+</table>
+
+
+@section Scripts {
+    
+    <script src="~/Scripts/Index.js"></script>
+    
+
+}
